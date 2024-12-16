@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
 
+
+ .logo {
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   font-size: 1.5rem; /* Adjust the size of "LMS" */
+   color: #333; /* Change this to your desired color */
+}
+
+.logo img {
+   width: 65px; /* Adjust the size of the logo image */
+   height: 55px; /* Ensure the logo image maintains the aspect ratio */
+   margin-right: 10px; /* Add space between the logo and "LMS" text */
+}
+
+
 :root{
    --main-color:#8e44ad;
    --red:#e74c3c;
